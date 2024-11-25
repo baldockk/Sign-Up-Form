@@ -23,6 +23,8 @@
 .r_midform {
     background-color: orange;
     height: 33vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .r_bot {
@@ -32,4 +34,14 @@
 
 * {
     margin: 0 auto;
+}
+
+.r_midform_l {
+    background-color: white;
+    width: 50vw;
+}
+
+.r_midform_r {
+    background-color: grey;
+    width: 50vw;
 }
