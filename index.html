@@ -7,30 +7,55 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!--TO DO: Credit this source for the image used "Photo by Jeremy Bishop on Unsplash" https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4-->
+    <!--TO DO: Credit this source for the image used "Photo by Jeremy Bishop on Unsplash" -->
 
     <div class="flex_container">
         <div class="left">
-            <p>I will be on the left!</p>
+            <figure>
+                <img src="Tree.jpg" class="tree">
+                <figcaption>Photo by <strong><a href="https://unsplash.com/@jeremybishop" target="_blank">Jeremy Bishop</a></strong> on <a href="https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4" target="_blank">Unsplash</a></figcaption>
+            </figure>
         </div>
 
         <div class="right">
             <div class="r_top">
-                <p>I will be on the right top!</p>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p class="entice">You know you want to.</p>
             </div>
 
             <div class="r_midform">
-                <div class="r_midform_l">
-                    <p>I will be on the left of the right middle tile</p>
-                </div>
-
-                <div class="r_midform_r">
-                    <p>I will be on the right of the right middle tile!</p>
-                </div>
+                <h1>Let's do this!</h1>
+                <form action="index.html" method="post">
+                    <div class="form_container">
+                        <div class="form_left">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" placeholder="Fred" name="first_name">
+                        
+                            <label for="email_address">Email Address</label>
+                            <input type="email" id="email_address" placeholder="me@example.com" name="email_address">
+                        
+                            <label for="user_password">Password:</label>
+                            <input type="password" id="user_password" name="password">
+                        </div>
+    
+                        <div class="form_right">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" placeholder="Flinstone" name="last_name">
+    
+                            <label for="phone-number">Phone Number</label>  
+                            <input type="tel" id="phone-number" placeholder="### ### ####">
+    
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                        </div>
+                    </div>
+                    
+                </form>
             </div>
 
             <div class="r_bot">
-                <p>I will be on the right bottom!</p>
+                <button class="create">Create Account</button>
+                <p class="sign-in">Already have an account? <strong><a>Sign in</a></strong></p>
             </div>
 
         </div>
