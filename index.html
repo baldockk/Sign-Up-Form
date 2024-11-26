@@ -13,6 +13,10 @@
         <div class="left">
             <figure>
                 <img src="Tree.jpg" class="tree">
+                <div class="odin-banner">
+                    <img src="odin-sidebar.png" class="overlay">
+                    <h2>ODIN</h2>
+                </div>
                 <figcaption>Photo by <strong><a href="https://unsplash.com/@jeremybishop" target="_blank">Jeremy Bishop</a></strong> on <a href="https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4" target="_blank">Unsplash</a></figcaption>
             </figure>
         </div>
@@ -28,25 +32,25 @@
                 <form action="index.html" method="post">
                     <div class="form_container">
                         <div class="form_left">
-                            <label for="first_name">First Name</label>
+                            <label for="first_name">First Name:</label>
                             <input type="text" id="first_name" placeholder="Fred" name="first_name">
                         
-                            <label for="email_address">Email Address</label>
+                            <label for="email_address">Email Address:</label>
                             <input type="email" id="email_address" placeholder="me@example.com" name="email_address">
                         
-                            <label for="user_password">Password:</label>
-                            <input type="password" id="user_password" name="password">
+                            <label for="user_password">*Password:</label>
+                            <input type="password" id="user_password" name="password" required minlength="5">
                         </div>
     
                         <div class="form_right">
-                            <label for="last_name">Last Name</label>
+                            <label for="last_name">Last Name:</label>
                             <input type="text" id="last_name" placeholder="Flinstone" name="last_name">
     
-                            <label for="phone-number">Phone Number</label>  
+                            <label for="phone-number">Phone Number:</label>  
                             <input type="tel" id="phone-number" placeholder="### ### ####">
     
-                            <label for="confirm_password">Confirm Password</label>
-                            <input type="password" id="confirm_password" name="confirm_password">
+                            <label for="confirm_password">*Confirm Password:</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required minlength="5">
                         </div>
                     </div>
                     
